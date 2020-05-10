@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Umi Life & Home Support≪ULHS≫</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body id="all">
+    <header class="head clearfix">
+      <div id="logo">
+        <div><a href="index">
+          <img src="images/logo1.png" alt="UHS1" class="logo1"></a>
+        </div>
+      </div>
+      <div>
+        <div><a href="index">
+          <img src="images/logo2.png" alt="UHS1" class="space"></a>
+        </div>
+      </div>
+      <div><img src="/images/black.jpg" alt="bar" class="barbtn"></div>
+      <ul class="navi">
+        <li class="btn1"><a href="index">TOP</a></li>
+        <li class="btn1"><a href="profile">PROFILE</a></li>
+        <li class="btn1"><a href="app">ローン計算</a></li>
+        <li class="btn1"><a href="blog">情報発信</a></li>
+        <li class="btn1"><a href="cont">個別相談</a></li>
+      </ul>
+    </header>
+    <%= yield %>
+    <footer>
+      <small>Umi Life & Home Support　≪Mail :umilhs2020@gmail.com≫<br>簡易的なHP作成も承ります。まずはお気軽にご相談ください。</small>
+    </footer>
+  </body>
+</html>
