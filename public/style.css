@@ -1,0 +1,475 @@
+@charset "utf-8";
+
+/*-------------------全体-------------------*/
+header{
+  width: 100%;
+}
+
+footer{
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: #767671;
+}
+
+footer small{
+  font-size: 15px;
+}
+
+#logo{
+  float: left;
+  margin: 0;
+}
+
+.logo1{
+  width: 30vw;
+  height: calc(30vw * 1);
+}
+
+.barbtn{
+  width: 55%;
+  height: 0.5px;
+}
+
+#all{
+  background-image: url("/images/back.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.navi li{
+  float: left;
+  list-style: none;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.space{
+  width: 57vw;
+  height: calc(57vw * 0.33);
+  float: left;
+}
+
+.btn1 a{
+  background-color:rgba(255,255,255,0.5);
+  color: #000000;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: 'Bitter', serif;
+  width: 11vw;
+  display: block;
+  text-align: center;
+  line-height: calc(11vw * 0.5);
+  border-radius: 0px;
+  border: solid 2px #000000;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn1 a:hover{
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.5);
+  color: darkorange;
+}
+
+#all .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*-------------------全体-------------------*/
+
+/*-------------------index-------------------*/
+
+h1{
+  font-family: 'Bitter','serif';
+  font-size: 42px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h2{
+  font-family:　'Bitter','serif';
+  font-size: 30px;
+}
+
+.icon:before{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid darkorange;
+}
+
+.textboxleft{
+  width: 60%;
+  height: 200;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  font-size: 20px;
+  float: left;
+  font-weight: bolder;
+}
+
+.textboxright{
+  width: 60%;
+  height: 200;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  font-size: 20px;
+  float: right;
+  font-weight: bolder;
+}
+
+.colortext{
+  font-size: 45px;
+  color: darkorange;
+  text-shadow: 1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000,
+    1px 0 0 #000000,
+    -1px 0 0 #000000;
+}
+
+.btn a{
+  float: right;
+  background-color: darkorange;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 185px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color:darkorange;
+}
+
+
+
+.pic{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.bar{
+  width: 100%;
+  height: 1px;
+}
+
+
+.define{
+  color: red;
+  font-weight: bold;
+}
+
+.content{
+  font-weight: 900;
+  line-height: inherit;
+}
+
+.pic{
+  width: 30vw;
+  height: calc(30vw * 0.66);
+  margin: 10px;
+}
+
+
+/*-------------------index-------------------*/
+
+/*-------------------app-------------------*/
+#app h1{
+  background-color: rgba(100,100,100,0.5);
+  text-align: center;
+}
+
+.boxapp{
+  padding: 0.5em 1em;
+  margin: 15px 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #ffc06e;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.boxapp2{
+  padding: 0.5em 1em;
+  margin: 15px 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px coral;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.form{
+  font-size: 24px;
+  padding: 0.5em 1em;
+  margin: 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #ffc06e;
+}
+
+.form2{
+  font-size: 24px;
+  padding: 0.5em 1em;
+  margin: 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px coral;
+}
+
+#app .bar{
+  max-width: 90%;
+  height: 3px;
+  margin: 0 auto;
+}
+
+.btn{
+  text-align: right;
+  font-size: 20px;
+}
+
+.btnin{
+  font-size: 24px;
+}
+
+.data{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  border: double 5px darkorange;
+}
+.data p{
+  margin: 0;
+  padding: 0;
+}
+
+.resultpage{
+  background-color: rgba(255,255,255,0.7);
+  margin: 5%;
+  padding: 5%;
+  font-size: 20px;  
+}
+
+.result{
+  font-size: 32px;
+  text-align: center;
+}
+
+.define2{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+
+/*-------------------app-------------------*/
+/*-------------------profile-------------------*/
+
+.prof{
+  background-color: rgba(255,255,255,0.7);
+  margin: 5%;
+  padding: 5%;
+  font-size: 20px;
+}
+
+.komidasi{
+  text-decoration: underline;
+}
+
+/*-------------------profile-------------------*/
+/*-------------------cont-------------------*/
+
+#cont .content{
+  background-color: rgba(255,255,255,0.7);
+  margin: 5%;
+  padding: 5%;
+  font-size: 20px;
+}
+/*-------------------cont-------------------*/
+
+/*-------------------blog-------------------*/
+#blog .textboxleft{
+  width: 90%;
+  height: 200;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  font-size: 20px;
+  float: left;
+  font-weight: bolder;
+}
+/*-------------------blog-------------------*/
+
+/*-------------------スマホ-------------------*/
+@media screen and (max-width:600px) {
+  
+  h1{
+    font-size: 24px;
+  }
+  
+  h2{
+    font-size: 20px;
+  }
+  
+  .main-center{
+    font-size: 16px;
+  }
+  
+  .profile-txt{
+    font-size: 16px;
+  }
+  
+  .komidasi{
+    font-size: 18px;
+  }
+  
+  #index .textboxleft{
+  width: 90%;
+  height: 200;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  font-size: 16px;
+  float: left;
+  font-weight: bolder;
+}
+  
+  #blog .textboxleft{
+  width: 90%;
+  height: 200;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  font-size: 16px;
+  float: left;
+  font-weight: bolder;
+}
+
+#index .textboxright{
+  width: 90%;
+  height: 200;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.5);
+  margin: 5px;
+  font-size: 16px;
+  float: right;
+  font-weight: bolder;
+}
+
+.colortext{
+  font-size: 28px;
+  color: darkorange;
+  text-shadow: 1px 1px 0 #000000,
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    0 1px 0 #000000,
+    0 -1px 0 #000000,
+    1px 0 0 #000000,
+    -1px 0 0 #000000;
+}
+  
+  .pic{
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+  }
+  
+  .barbtn{
+    width: 100%;
+    height: 0.5px;
+  }
+  
+  .btn1 a{
+    background-color:rgba(255,255,255,0.5);
+    color: #000000;
+    font-size: 3.3vw;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    width: 17vw;
+    display: block;
+    text-align: center;
+    line-height: calc(18vw * 0.5);
+    border-radius: 0px;
+    border: solid 1px #000000;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .boxapp{
+  font-size: 20px;
+}
+
+.boxapp2{
+  font-size: 20px;
+}
+
+.form{
+  font-size: 16px;
+}
+
+.form2{
+  font-size: 16px;
+}
+  #all{
+  background-image: url("/images/back.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto 100% ;
+}
+  
+  .formbox{
+    width: 100px;
+  }
+  
+  .resultpage{
+  background-color: rgba(255,255,255,0.7);
+  margin: 5%;
+  padding: 5%;
+  font-size: 16px;  
+}
+
+.result{
+  font-size: 16px;
+  text-align: left;
+  text-align: center;
+}
+
+.define2{
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.btnin{
+  font-size: 16px;
+}
+  
+}
+
+
+
+/*-------------------スマホ-------------------*/
+
+
+/*-------------------完成ここまで-------------------*/

@@ -1,0 +1,20 @@
+<div id="app1">
+  <div id="wrap">
+    <div class="resultpage">
+      <h1>計算結果</h1>
+      <p class="result">ローン総額は<br><span class="define2"><%= @result1 %>,<%= @result2 %>,<%= @result3 %>円</span>　です</p>
+      <h2>入力情報</h2>
+      <div class="data">
+        <p>入力情報<br><br></p>
+        <p>希望支払月額　:<%=@ge%>万円</p>
+        <p>ボーナス支払い:<%=@bo%>万円（年２回）</p>
+        <p>利率　　　　　:<%=@ri%>％</p>
+        <p>借入期間　　　:<%=@ka%>年</p>
+        <p class="btn"><a href="app">再計算</a></p>
+      </div>
+      <div><img src="/images/bar.jpg" alt="bar" class="bar"></div>
+      <p>諸条件によって誤差が生じる場合があります。詳しくはローンを組む金融機関にご確認ください。</p>
+    </div>
+  </div>
+</div>
+      
